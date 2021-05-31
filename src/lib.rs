@@ -23,6 +23,7 @@ pub struct Card {
     pub name: String,
     pub arcana: Arcana,
     pub suit: Option<Suit>,
+    pub depiction: String
 }
 
 #[derive(Debug, Copy, Clone)]

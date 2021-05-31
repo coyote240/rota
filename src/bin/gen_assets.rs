@@ -47,6 +47,7 @@ fn parse_xml(path: String) -> Vec<Card> {
             number: get_number(node),
             arcana: get_arcana(node),
             suit: get_suit(node),
+            depiction: get_depiction(node),
         };
         cards.push(card);
     }
@@ -105,4 +106,11 @@ fn get_suit(node: &Element) -> Option<Suit> {
     };
 
     Some(suit)
+}
+
+fn get_depiction(node: &Element) -> String {
+    let depiction = node.get_child("depiction", FOAF_NS).unwrap();
+    let depiction = depiction.attr("rdf:resource").unwrap();
+
+    String::from(depiction)
 }
