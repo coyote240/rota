@@ -1,0 +1,1401 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cards="http://data.totl.net/cards/"
+  xmlns:occult="http://data.totl.net/occult/"
+  >
+
+  <rdf:Description rdf:about="">
+    <cc:attributionName>Temple ov thee Lemur Data Service</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://data.totl.net/" />
+    <dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+    <dcterms:creator>Temple ov thee Lemur</dcterms:creator>
+    <dcterms:description>Dataset describing the classic Rider, Waite, Coleman-Smith tarot deck.</dcterms:description>
+    <foaf:primaryTopic rdf:resource="http://data.totl.net/tarot-rwcs/deck" />
+  </rdf:Description>
+
+<cards:Deck rdf:about='http://data.totl.net/tarot-rwcs/deck'>
+  <foaf:name>Rider-Waite Tarot Deck</foaf:name>
+  <foaf:name>Rider-Waite-Smith Tarot Deck</foaf:name>
+  <owl:sameAs rdf:resource='http://dbpedia.org/resource/Rider-Waite_tarot_deck' />
+  <occult:archetype rdf:resource='http://data.totl.net/tarot/deck' />
+  <cards:hasSuit>
+    <cards:Suit rdf:about='http://data.totl.net/tarot-rwcs/suit/Swords'>
+      <foaf:name>Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/suit/Swords' />
+      <occult:correspondsTo rdf:resource='http://data.totl.net/element/Air' />
+    </cards:Suit>
+  </cards:hasSuit>
+  <cards:hasSuit>
+    <cards:Suit rdf:about='http://data.totl.net/tarot-rwcs/suit/Cups'>
+      <foaf:name>Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/suit/Cups' />
+      <occult:correspondsTo rdf:resource='http://data.totl.net/element/Water' />
+    </cards:Suit>
+  </cards:hasSuit>
+  <cards:hasSuit>
+    <cards:Suit rdf:about='http://data.totl.net/tarot-rwcs/suit/Pentacles'>
+      <foaf:name>Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/suit/Pentacles' />
+      <occult:correspondsTo rdf:resource='http://data.totl.net/element/Earth' />
+    </cards:Suit>
+  </cards:hasSuit>
+  <cards:hasSuit>
+    <cards:Suit rdf:about='http://data.totl.net/tarot-rwcs/suit/Wands'>
+      <foaf:name>Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/suit/Wands' />
+      <occult:correspondsTo rdf:resource='http://data.totl.net/element/Fire' />
+    </cards:Suit>
+  </cards:hasSuit>
+  <foaf:maker>
+    <foaf:Agent rdf:about='http://dbpedia.org/resource/Rider_Company'>
+      <foaf:name>Rider (imprint)</foaf:name>
+    </foaf:Agent>
+  </foaf:maker>
+  <foaf:maker>
+    <foaf:Person rdf:about='Pamela_Colman_Smith'>
+      <foaf:name>Pamela Colman Smith</foaf:name>
+    </foaf:Person>
+  </foaf:maker>
+  <foaf:maker>
+    <foaf:Person rdf:about='http://dbpedia.org/resource/A._E._Waite'>
+      <foaf:name>Arthur Edward Waite</foaf:name>
+    </foaf:Person>
+  </foaf:maker>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Ace'>
+      <foaf:name>Ace</foaf:name>
+      <cards:numericValue>1</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Ace' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Two'>
+      <foaf:name>Two</foaf:name>
+      <cards:numericValue>2</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Two' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Three'>
+      <foaf:name>Three</foaf:name>
+      <cards:numericValue>3</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Three' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Four'>
+      <foaf:name>Four</foaf:name>
+      <cards:numericValue>4</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Four' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Five'>
+      <foaf:name>Five</foaf:name>
+      <cards:numericValue>5</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Five' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Six'>
+      <foaf:name>Six</foaf:name>
+      <cards:numericValue>6</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Six' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Seven'>
+      <foaf:name>Seven</foaf:name>
+      <cards:numericValue>7</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Seven' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Eight'>
+      <foaf:name>Eight</foaf:name>
+      <cards:numericValue>8</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Eight' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Nine'>
+      <foaf:name>Nine</foaf:name>
+      <cards:numericValue>9</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Nine' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Ten'>
+      <foaf:name>Ten</foaf:name>
+      <cards:numericValue>10</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Ten' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Page'>
+      <foaf:name>Page</foaf:name>
+      <cards:numericValue>11</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Page' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Knight'>
+      <foaf:name>Knight</foaf:name>
+      <cards:numericValue>12</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Knight' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/Queen'>
+      <foaf:name>Queen</foaf:name>
+      <cards:numericValue>13</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/Queen' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasValue>
+    <cards:Value rdf:about='http://data.totl.net/tarot-rwcs/value/King'>
+      <foaf:name>King</foaf:name>
+      <cards:numericValue>14</cards:numericValue>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/value/King' />
+    </cards:Value>
+  </cards:hasValue>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/AceOfSwords'>
+      <foaf:name>Ace of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/AceOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ace' />
+      <foaf:page rdf:resource='http://learntarot.com/sa.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s01.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TwoOfSwords'>
+      <foaf:name>Two of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TwoOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Two' />
+      <foaf:page rdf:resource='http://learntarot.com/s2.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s02.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/ThreeOfSwords'>
+      <foaf:name>Three of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/ThreeOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Three' />
+      <foaf:page rdf:resource='http://learntarot.com/s3.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s03.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FourOfSwords'>
+      <foaf:name>Four of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FourOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Four' />
+      <foaf:page rdf:resource='http://learntarot.com/s4.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s04.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FiveOfSwords'>
+      <foaf:name>Five of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FiveOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Five' />
+      <foaf:page rdf:resource='http://learntarot.com/s5.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s05.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SixOfSwords'>
+      <foaf:name>Six of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SixOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Six' />
+      <foaf:page rdf:resource='http://learntarot.com/s6.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s06.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SevenOfSwords'>
+      <foaf:name>Seven of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SevenOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Seven' />
+      <foaf:page rdf:resource='http://learntarot.com/s7.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s07.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/EightOfSwords'>
+      <foaf:name>Eight of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/EightOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Eight' />
+      <foaf:page rdf:resource='http://learntarot.com/s8.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s08.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/NineOfSwords'>
+      <foaf:name>Nine of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/NineOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Nine' />
+      <foaf:page rdf:resource='http://learntarot.com/s9.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s09.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TenOfSwords'>
+      <foaf:name>Ten of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TenOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ten' />
+      <foaf:page rdf:resource='http://learntarot.com/s10.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s10.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/PageOfSwords'>
+      <foaf:name>Page of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/PageOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Page' />
+      <foaf:page rdf:resource='http://learntarot.com/spg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s11.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KnightOfSwords'>
+      <foaf:name>Knight of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KnightOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Knight' />
+      <foaf:page rdf:resource='http://learntarot.com/skn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s12.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/QueenOfSwords'>
+      <foaf:name>Queen of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/QueenOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Queen' />
+      <foaf:page rdf:resource='http://learntarot.com/sqn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s13.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KingOfSwords'>
+      <foaf:name>King of Swords</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KingOfSwords' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Swords' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/King' />
+      <foaf:page rdf:resource='http://learntarot.com/skg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/s14.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/AceOfCups'>
+      <foaf:name>Ace of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/AceOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ace' />
+      <foaf:page rdf:resource='http://learntarot.com/ca.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c01.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TwoOfCups'>
+      <foaf:name>Two of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TwoOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Two' />
+      <foaf:page rdf:resource='http://learntarot.com/c2.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c02.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/ThreeOfCups'>
+      <foaf:name>Three of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/ThreeOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Three' />
+      <foaf:page rdf:resource='http://learntarot.com/c3.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c03.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FourOfCups'>
+      <foaf:name>Four of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FourOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Four' />
+      <foaf:page rdf:resource='http://learntarot.com/c4.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c04.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FiveOfCups'>
+      <foaf:name>Five of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FiveOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Five' />
+      <foaf:page rdf:resource='http://learntarot.com/c5.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c05.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SixOfCups'>
+      <foaf:name>Six of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SixOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Six' />
+      <foaf:page rdf:resource='http://learntarot.com/c6.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c06.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SevenOfCups'>
+      <foaf:name>Seven of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SevenOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Seven' />
+      <foaf:page rdf:resource='http://learntarot.com/c7.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c07.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/EightOfCups'>
+      <foaf:name>Eight of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/EightOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Eight' />
+      <foaf:page rdf:resource='http://learntarot.com/c8.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c08.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/NineOfCups'>
+      <foaf:name>Nine of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/NineOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Nine' />
+      <foaf:page rdf:resource='http://learntarot.com/c9.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c09.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TenOfCups'>
+      <foaf:name>Ten of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TenOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ten' />
+      <foaf:page rdf:resource='http://learntarot.com/c10.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c10.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/PageOfCups'>
+      <foaf:name>Page of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/PageOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Page' />
+      <foaf:page rdf:resource='http://learntarot.com/cpg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c11.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KnightOfCups'>
+      <foaf:name>Knight of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KnightOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Knight' />
+      <foaf:page rdf:resource='http://learntarot.com/ckn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c12.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/QueenOfCups'>
+      <foaf:name>Queen of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/QueenOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Queen' />
+      <foaf:page rdf:resource='http://learntarot.com/cqn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c13.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KingOfCups'>
+      <foaf:name>King of Cups</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KingOfCups' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Cups' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/King' />
+      <foaf:page rdf:resource='http://learntarot.com/ckg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/c14.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/AceOfPentacles'>
+      <foaf:name>Ace of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/AceOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ace' />
+      <foaf:page rdf:resource='http://learntarot.com/pa.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p01.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TwoOfPentacles'>
+      <foaf:name>Two of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TwoOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Two' />
+      <foaf:page rdf:resource='http://learntarot.com/p2.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p02.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/ThreeOfPentacles'>
+      <foaf:name>Three of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/ThreeOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Three' />
+      <foaf:page rdf:resource='http://learntarot.com/p3.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p03.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FourOfPentacles'>
+      <foaf:name>Four of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FourOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Four' />
+      <foaf:page rdf:resource='http://learntarot.com/p4.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p04.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FiveOfPentacles'>
+      <foaf:name>Five of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FiveOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Five' />
+      <foaf:page rdf:resource='http://learntarot.com/p5.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p05.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SixOfPentacles'>
+      <foaf:name>Six of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SixOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Six' />
+      <foaf:page rdf:resource='http://learntarot.com/p6.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p06.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SevenOfPentacles'>
+      <foaf:name>Seven of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SevenOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Seven' />
+      <foaf:page rdf:resource='http://learntarot.com/p7.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p07.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/EightOfPentacles'>
+      <foaf:name>Eight of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/EightOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Eight' />
+      <foaf:page rdf:resource='http://learntarot.com/p8.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p08.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/NineOfPentacles'>
+      <foaf:name>Nine of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/NineOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Nine' />
+      <foaf:page rdf:resource='http://learntarot.com/p9.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p09.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TenOfPentacles'>
+      <foaf:name>Ten of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TenOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ten' />
+      <foaf:page rdf:resource='http://learntarot.com/p10.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p10.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/PageOfPentacles'>
+      <foaf:name>Page of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/PageOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Page' />
+      <foaf:page rdf:resource='http://learntarot.com/ppg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p11.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KnightOfPentacles'>
+      <foaf:name>Knight of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KnightOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Knight' />
+      <foaf:page rdf:resource='http://learntarot.com/pkn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p12.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/QueenOfPentacles'>
+      <foaf:name>Queen of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/QueenOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Queen' />
+      <foaf:page rdf:resource='http://learntarot.com/pqn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p13.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KingOfPentacles'>
+      <foaf:name>King of Pentacles</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KingOfPentacles' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Pentacles' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/King' />
+      <foaf:page rdf:resource='http://learntarot.com/pkg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/p14.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/AceOfWands'>
+      <foaf:name>Ace of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/AceOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ace' />
+      <foaf:page rdf:resource='http://learntarot.com/wa.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w01.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TwoOfWands'>
+      <foaf:name>Two of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TwoOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Two' />
+      <foaf:page rdf:resource='http://learntarot.com/w2.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w02.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/ThreeOfWands'>
+      <foaf:name>Three of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/ThreeOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Three' />
+      <foaf:page rdf:resource='http://learntarot.com/w3.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w03.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FourOfWands'>
+      <foaf:name>Four of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FourOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Four' />
+      <foaf:page rdf:resource='http://learntarot.com/w4.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w04.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/FiveOfWands'>
+      <foaf:name>Five of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/FiveOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Five' />
+      <foaf:page rdf:resource='http://learntarot.com/w5.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w05.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SixOfWands'>
+      <foaf:name>Six of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SixOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Six' />
+      <foaf:page rdf:resource='http://learntarot.com/w6.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w06.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/SevenOfWands'>
+      <foaf:name>Seven of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/SevenOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Seven' />
+      <foaf:page rdf:resource='http://learntarot.com/w7.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w07.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/EightOfWands'>
+      <foaf:name>Eight of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/EightOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Eight' />
+      <foaf:page rdf:resource='http://learntarot.com/w8.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w08.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/NineOfWands'>
+      <foaf:name>Nine of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/NineOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Nine' />
+      <foaf:page rdf:resource='http://learntarot.com/w9.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w09.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/TenOfWands'>
+      <foaf:name>Ten of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/TenOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/NumberedCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Ten' />
+      <foaf:page rdf:resource='http://learntarot.com/w10.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w10.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/PageOfWands'>
+      <foaf:name>Page of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/PageOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Page' />
+      <foaf:page rdf:resource='http://learntarot.com/wpg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w11.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KnightOfWands'>
+      <foaf:name>Knight of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KnightOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Knight' />
+      <foaf:page rdf:resource='http://learntarot.com/wkn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w12.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/QueenOfWands'>
+      <foaf:name>Queen of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/QueenOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/Queen' />
+      <foaf:page rdf:resource='http://learntarot.com/wqn.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w13.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/KingOfWands'>
+      <foaf:name>King of Wands</foaf:name>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/KingOfWands' />
+      <cards:suit rdf:resource='http://data.totl.net/tarot-rwcs/suit/Wands' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/SuitedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/ValuedCard' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MinorArcanaCard' />
+      <rdf:type rdf:resource='http://data.totl.net/cards/CourtCard' />
+      <cards:numericValue>14</cards:numericValue>
+      <cards:value rdf:resource='http://data.totl.net/tarot-rwcs/value/King' />
+      <foaf:page rdf:resource='http://learntarot.com/wkg.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/w14.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Fool'>
+      <foaf:name>Fool</foaf:name>
+      <dcterms:description>With light step, as if earth and its trammels had little power to restrain him, a young man in gorgeous vestments pauses at the brink of a precipice among the great heights of the world; he surveys the blue distance before him-its expanse of sky rather than the prospect below. His act of eager walking is still indicated, though he is stationary at the given moment; his dog is still bounding. The edge which opens on the depth has no terror; it is as if angels were waiting to uphold him, if it came about that he leaped from the height. His countenance is full of intelligence and expectant dream. He has a rose in one hand and in the other a costly wand, from which depends over his right shoulder a wallet curiously embroidered. He is a prince of the other world on his travels through this one-all amidst the morning glory, in the keen air. The sun, which shines behind him, knows whence he came, whither he is going, and how he will return by another path after many days. He is the spirit in search of experience. Many symbols of the Instituted Mysteries are summarized in this card, which reverses, under high warrants, all the confusions that have preceded it.
+
+His wallet contains the four magic symbols, the sceptre, the cup, the sword and the pentacle. The fool always carries them, although he has long since forgotten what they mean. Nevertheless they belong to him, even though he does not know their use. The symbols have not lost their power, they retain it in themselves. 
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Fool' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>0</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/element/Air'><foaf:name>The Alchemical Element of Air</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj00.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m00.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Magician'>
+      <foaf:name>Magician</foaf:name>
+      <dcterms:description>A youthful figure in the robe of a magician, having the countenance of divine Apollo, with smile of confidence and shining eyes. Above his head is the mysterious sign of the Holy Spirit, the sign of life, like an endless cord, forming the figure 8 in a horizontal position, the Lemniscate (this only appears elsewhere above Strength). About his waist is a serpent-cincture, the serpent appearing to devour its own tail. This is familiar to most as a conventional symbol of eternity, but here it indicates more especially the eternity of attainment in the spirit. In the Magician's right hand is a wand raised towards heaven, while the left hand is pointing to the earth. This dual sign is known in very high grades of the Instituted Mysteries; it shews the descent of grace, virtue and light, drawn from things above and derived to things below. The suggestion throughout is therefore the possession and communication of the Powers and Gifts of the Spirit. On the table in front of the Magician are the symbols of the four Tarot  suits, signifying the elements of natural life, which lie like counters before the adept, and he adapts them as he wills. Beneath are roses and lilies, the flos campi and lilium convallium, changed into garden flowers, to shew the culture of aspiration. This card signifies the divine motive in man, reflecting God, the will in the liberation of its union with that which is above. It is also the unity of individual being on all planes, and in a very high sense it is thought, in the fixation thereof.
+
+The bower above him represents the passion and protection of love, repeated in the Queen of Pentacles. It shows his work originates from Love. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Magician' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>1</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Mercury'><foaf:name>The Planet Mercury</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj01.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m01.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/HighPriestess'>
+      <foaf:name>High Priestess</foaf:name>
+      <dcterms:description>She has the lunar crescent at her feet, a horned diadem on her head, with a globe in the middle place, and a large solar cross on her breast. The scroll in her hands is inscribed with the word Tora, signifying the Greater Law, the Secret Law and the second sense of the Word. It is partly covered by her mantle, to shew that some things are implied and some spoken. She is seated between the white and black pillars--J. and B.--of the mystic Temple, and the veil of the Temple is behind her: it is embroidered with palms and pomegranates. The vestments are flowing and gauzy, and the mantle suggests light--a shimmering radiance. She has been called occult Science on the threshold of the Sanctuary of Isis, but she is really the Secret Church, the House which is of God and man. She represents also the Second Marriage of the Prince who is no longer of this world; she is the spiritual Bride and Mother, the daughter of the stars and the Higher Garden of Eden. She is, in fine, the Queen of the borrowed light, but this is the light of all. She is the Moon nourished by the milk of the Supernal Mother.
+
+In a manner, she is also the Supernal Mother herself--that is to say, she is the bright reflection. It is in this sense of reflection that her truest and highest name in bolism is Shekinah--the co-habiting glory. According to Kabalism, there is a Shekinah both above and below. In the superior world it is called Binah, the Supernal Understanding which reflects to the emanations that are beneath. In the lower world it is MaIkuth--that world being, for this purpose, understood as a blessed Kingdom that with which it is made blessed being the Indwelling Glory. Mystically speaking, the Shekinah is the Spiritual Bride of the just man, and when he reads the Law she gives the Divine meaning. There are some respects in which this card is the highest and holiest of the Greater Arcana. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/High Priestess' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>2</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Moon'><foaf:name>The Moon</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj02.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m02.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Empress'>
+      <foaf:name>Empress</foaf:name>
+      <dcterms:description>A stately figure, seated, having rich vestments and royal aspect, as of a daughter of heaven and earth. Her diadem is of twelve stars, gathered in a cluster. The symbol of Venus is on the shield which rests near her. A field of corn is ripening in front of her, and beyond there is a fall of water. The sceptre which she bears is surmounted by the globe of this world. She is the inferior Garden of Eden, the Earthly Paradise, all that is symbolized by the visible house of man. She is not Regina coeli, but she is still refugium peccatorum, the fruitful mother of thousands. There are also certain aspects in which she has been correctly described as desire and the wings thereof, as the woman clothed with the sun, as Gloria Mundi and the veil of the Sanctum Sanctorum; but she is not the soul that has attained wings, unless all the symbolism is counted up another and unusual way. She is above all things universal fecundity and the outer sense of the Word. This is obvious, because there is no direct message which has been given to man like that which is borne by woman; but she does not herself carry its interpretation.
+
+In another order of ideas, the card of the Empress signifies the door or gate by which an entrance is obtained into this life, as into the Garden of Venus; and then the way which leads out therefrom, into that which is beyond, is the secret known to the High Priestess: it is communicated by her to the elect. Most old attributions of this card are completely wrong on the symbolism--as, for example, its identification with the Word, Divine Nature, the Triad, and so forth. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Empress' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>3</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Venus'><foaf:name>The Planet Venus</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj03.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m03.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Emperor'>
+      <foaf:name>Emperor</foaf:name>
+      <dcterms:description>
+He has a form of the Crux ansata for his sceptre and a globe in his left hand. He is a crowned monarch--commanding, stately, seated on a throne, the arms of which axe fronted by rams' heads. He is executive and realization, the power of this world, here clothed with the highest of its natural attributes. He is occasionally represented as seated on a cubic stone, which, however, confuses some of the issues. He is the virile power, to which the Empress responds, and in this sense is he who seeks to remove the Veil of Isis; yet she remains virgo intacta.
+
+It should be understood that this card and that of the Empress do not precisely represent the condition of married life, though this state is implied. On the surface they stand for mundane royalty, uplifted on the seats of the mighty; but above this there is the suggestion of another presence. They signify also--and the male figure especially--the higher kingship, occupying the intellectual throne. Hereof is the lordship of thought rather than of the animal world. Both personalities, after their own manner, are "full of strange experience," but theirs is not consciously the wisdom which draws from a higher world. The Emperor has been described as will in its embodied form, but this is only one of its applications, and as an expression of virtualities contained in the Absolute Being--but this is fantasy. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Emperor' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>4</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Aries'><foaf:name>Aries in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj04.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m04.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Hierophant'>
+      <foaf:name>Hierophant</foaf:name>
+      <dcterms:description>He wears the triple crown and is seated between two pillars, but they are not those of the Temple which is guarded by the High Priestess. In his left hand he holds a sceptre terminating in the triple cross, and with his right hand he gives the well-known ecclesiastical sign which is called that of esotericism, distinguishing between the manifest and concealed part of doctrine. It is noticeable in this connexion that the High Priestess makes no sign. At his feet are the crossed keys, and two priestly ministers in albs kneel before him. He has been usually called the Pope, which is a particular application of the more general office that he symbolizes. He is the ruling power of external religion, as the High Priestess is the prevailing genius of the esoteric, withdrawn power. The proper meanings of this card have suffered woeful admixture from nearly all hands. Grand Orient says truly that the Hierophant is the power of the keys, exoteric orthodox doctrine, and the outer side of the life which leads to the doctrine; but he is certainly not the prince of occult doctrine, as another commentator has suggested.
+
+He is rather the summa totius theologiÃ¦, when it has passed into the utmost rigidity of expression; but he symbolizes also all things that are righteous and sacred on the manifest side. As such, he is the channel of grace belonging to the world of institution as distinct from that of Nature, and he is the leader of salvation for the human race at large. He is the order and the head of the recognized hierarchy, which is the reflection of another and greater hierarchic order; but it may so happen that the pontiff forgets the significance of this his symbolic state and acts as if he contained within his proper measures all that his sign signifies or his symbol seeks to shew forth. He is not, as it has been thought, philosophy-except on the theological side; he is not inspiration; and he is not religion, although he is a mode of its expression.
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Hierophant' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>5</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Taurus'><foaf:name>Taurus in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj05.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m05.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Lovers'>
+      <foaf:name>Lovers</foaf:name>
+      <dcterms:description>The sun shines in the zenith, and beneath is a great winged figure with arms extended, pouring down influences. In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body. Behind the man is the Tree of Life, bearing twelve fruits, and the Tree of the Knowledge of Good and Evil is behind the woman; the serpent is twining round it. The figures suggest youth, virginity, innocence and love before it is contaminated by gross material desire. This is in all simplicity the card of human love, here exhibited as part of the way, the truth and the life. It replaces, by recourse to first principles, the old card of marriage and the later follies which depicted man between vice and virtue. In a very high sense, the card is a mystery of the Covenant and Sabbath.
+
+The suggestion in respect of the woman is that she signifies that attraction towards the sensitive life which carries within it the idea of the Fall of Man, but she is rather the working of a Secret Law of Providence than a willing and conscious temptress. It is through her imputed lapse that man shall arise ultimately, and only by her can he complete himself. The card is therefore in its way another intimation concerning the great mystery of womanhood. The old meanings fall to pieces of necessity with the old pictures, but even as interpretations of the latter, some of them were of the order of commonplace and others were false in symbolism. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Lovers' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>6</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Gemini'><foaf:name>Gemini in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj06.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m06.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Chariot'>
+      <foaf:name>Chariot</foaf:name>
+      <dcterms:description>An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description. On the shoulders of the victorious hero are supposed to be the Urim and Thummim. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that Waite accepted the variation of Eliphas LÃ©vi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.
+
+It is to be understood for this reason that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; that the planes of his conquest are manifest or external and not within himself; that the liberation which he effects may leave himself in the bondage of the logical understanding; that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called Tora, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood. 
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Chariot' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>7</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Cancer'><foaf:name>Cancer in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj07.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m07.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Strength'>
+      <foaf:name>Strength</foaf:name>
+      <dcterms:description>
+A woman, over whose head there broods the same symbol of life which we have seen in the card of the Magician, is closing the jaws of a lion. The only point in which this design differs from the conventional presentations is that her beneficent fortitude has already subdued the lion, which is being led by a chain of flowers. For reasons which satisfy Waite, this card has been interchanged with that of justice, which is usually numbered eight. As the variation carries nothing with it which will signify to the reader, there is no cause for explanation. Fortitude, in one of its most exalted aspects, is connected with the Divine Mystery of Union; the virtue, of course, operates in all planes, and hence draws on all in its symbolism. It connects also with innocentia inviolata, and with the strength which resides in contemplation.
+
+These higher meanings are, however, matters of inference, and Waite does not suggest that they are transparent on the surface of the card. They are intimated in a concealed manner by the chain of flowers, which signifies, among many other things, the sweet yoke and the light burden of Divine Law, when it has been taken into the heart of hearts. The card has nothing to do with self-confidence in the ordinary sense, though this has been suggested--but it concerns the confidence of those whose strength is God, who have found their refuge in Him. There is one aspect in which the lion signifies the passions, and she who is called Strength is the higher nature in its liberation. It has walked upon the asp and the basilisk and has trodden down the lion and the dragon. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Strength' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>8</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Leo'><foaf:name>Leo in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj08.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m08.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Hermit'>
+      <foaf:name>Hermit</foaf:name>
+      <dcterms:description>(from the Pictorial key to Tarot by E. A. Waite)
+The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that "where I am, you also may be."
+
+It is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Eliphas LÃ©vi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term Philosophe inconnu was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared.
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Hermit' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>9</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Virgo'><foaf:name>Virgo in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj09.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m09.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/WheelofFortune'>
+      <foaf:name>Wheel of Fortune</foaf:name>
+      <dcterms:description>(from The Pictorial Key to Tarot by E. A. Waite)
+In this symbol I have again followed the reconstruction of Eliphas Levi, who has furnished several variants. It is legitimate--as I have intimated--to use Egyptian symbolism when this serves our purpose, provided that no theory of origin is implied therein. I have, however, presented Typhon in his serpent form. The symbolism is, of course, not exclusively Egyptian, as the four Living Creatures of Ezekiel occupy the angels of the card, and the wheel itself follows other indications of Levi in respect of Ezekiel's vision, as illustrative of the particular Tarot Key. With the French occultist, and in the design itself, the symbolic picture stands for the perpetual motion of a fluidic universe and for the flux of human life. The Sphinx is the equilibrium therein. The transliteration of Taro as Rota is inscribed on the wheel, counterchanged with the letters of the Divine Name--to shew that Providence is imphed through all. But this is the Divine intention within, and the similar intention without is exemplified by the four Living Creatures. Sometimes the sphinx is represented couchant on a pedestal above, which defrauds the symbolism by stultifying the essential idea of stability amidst movement. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Wheel of Fortune' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>10</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Jupiter'><foaf:name>The Planet Jupiter</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj10.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m10.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Justice'>
+      <foaf:name>Justice</foaf:name>
+      <dcterms:description>(From The Pictorial Key to Tarot by E. A. Waite]
+As this card follows the traditional symbolism and carries above all its obvious meanings, there is little to say regarding it outside the few considerations collected in the first part, to which the reader is referred.
+
+It will be seen, however, that the figure is seated between pillars, like the High Priestess, and on this account it seems desirable to indicate that the moral principle which deals unto every man according to his works--while, of course, it is in strict analogy with higher things;--differs in its essence from the spiritual justice which is involved in the idea of election. The latter belongs to a mysterious order of Providence, in virtue of which it is possible for certain men to conceive the idea of dedication to the highest things. The operation of this is like the breathing of the Spirit where it wills, and we have no canon of criticism or ground of explanation concerning it. It is analogous to the possession of the fairy gifts and the high gifts and the gracious gifts of the poet: we have them or have not, and their presence is as much a mystery as their absence. The law of Justice is not however involved by either alternative. In conclusion, the pillars of Justice open into one world and the pillars of the High Priestess into another. 
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Justice' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>11</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Libra'><foaf:name>Libra in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj11.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m11.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/HangedMan'>
+      <foaf:name>Hanged Man</foaf:name>
+      <dcterms:description>(From The pictorial Key to the Tarot by A.E. Waite)
+The gallows from which he is suspended forms a Tau cross, while the figure--from the position of the legs--forms a flyflot cross. There is a nimbus about the head of the seeming martyr. It should be noted (1) that the tree of sacrifice is living wood, with leaves thereon; (2) that the face expresses deep entrancement, not suffering; (3) that the figure, as a whole, suggests life in suspension, but life and not death. It is a card of profound significance, but all the significance is veiled. One of his editors suggests that Eliphas LÃ©vi did not know the meaning, which is unquestionable nor did the editor himself. It has been called falsely a card of martyrdom, a card a of prudence, a card of the Great Work, a card of duty; but we may exhaust all published interpretations and find only vanity. I will say very simply on my own part that it expresses the relation, in one of its aspects, between the Divine and the Universe.
+
+He who can understand that the story of his higher nature is imbedded in this symbolism will receive intimations concerning a great awakening that is possible, and will know that after the sacred Mystery of Death there is a glorious Mystery of Resurrection. 
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Hanged Man' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>12</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/element/Water'><foaf:name>The Alchemical Element of Water</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj12.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m12.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Death'>
+      <foaf:name>Death</foaf:name>
+      <dcterms:description>(From The Pictorial Key to the Tarot by A.E. Waite)
+The veil or mask of life is perpetuated in change, transformation and passage from lower to higher, and this is more fitly represented in the rectified Tarot by one of the apocalyptic visions than by the crude notion of the reaping skeleton. Behind it lies the whole world of ascent in the spirit. The mysterious horseman moves slowly, bearing a black banner emblazoned with the Mystic Rose, which signifies life. Between two pillars on the verge of the horizon there shines the sun of immortality. The horseman carries no visible weapon, but king and child and maiden fall before him, while a prelate with clasped hands awaits his end.
+
+There should be no need to point out that the suggestion of death which I have made in connection with the previous card is, of course, to be understood mystically, but this is not the case in the present instance. The natural transit of man to the next stage of his being either is or may be one form of his progress, but the exotic and almost unknown entrance, while still in this life, into the state of mystical death is a change in the form of consciousness and the passage into a state to which ordinary death is neither the path nor gate. The existing occult explanations of the 13th card are, on the whole, better than usual, rebirth, creation, destination, renewal, and the rest. 
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Death' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>13</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Scorpio'><foaf:name>Scorpio in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj13.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m13.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Temperance'>
+      <foaf:name>Temperance</foaf:name>
+      <dcterms:description>From The Pictorial Key to Tarot by A.E. Waite
+
+A winged angel, with the sign of the sun upon his forehead and on his breast the square and triangle of the septenary. I speak of him in the masculine sense, but the figure is neither male nor female. It is held to be pouring the essences of life from chalice to chalice. It has one foot upon the earth and one upon waters, thus illustrating the nature of the essences. A direct path goes up to certain heights on the verge of the horizon, and above there is a great light, through which a crown is seen vaguely. Hereof is some part of the Secret of Eternal Life, as it is possible to man in his incarnation. All the conventional emblems are renounced herein.
+
+So also are the conventional meanings, which refer to changes in the seasons, perpetual movement of life and even the combination of ideas. It is, moreover, untrue to say that the figure symbolizes the genius of the sun, though it is the analogy of solar light, realized in the third part of our human triplicity. It is called Temperance fantastically, because, when the rule of it obtains in our consciousness, it tempers, combines and harmonises the psychic and material natures. Under that rule we know in our rational part something of whence we came and whither we are going. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Temperance' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>14</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Sagittarius'><foaf:name>Sagittarius in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj14.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m14.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Devil'>
+      <foaf:name>Devil</foaf:name>
+      <dcterms:description>(From The Pictorial key to Tarot by A.E. Waite)
+The design is an accommodation, mean or harmony, between several motives mentioned in the first part. The Horned Goat of Mendes, with wings like those of a bat, is standing on an altar. At the pit of the stomach there is the sign of Mercury. The right hand is upraised and extended, being the reverse of that benediction which is given by the Hierophant in the fifth card. In the left hand there is a great flaming torch, inverted towards the earth. A reversed pentagram is on the forehead. There is a ring in front of the altar, from which two chains are carried to the necks of two figures, male and female. These are analogous with those of the fifth card, as if Adam and Eve after the Fall. Hereof is the chain and fatality of the material life.
+
+The figures are tailed, to signify the animal nature, but there is human intelligence in the faces, and he who is exalted above them is not to be their master for ever. Even now, he is also a bondsman, sustained by the evil that is in him and blind to the liberty of service. With more than his usual derision for the arts which he pretended to respect and interpret as a master therein, Eliphas LÃ©vi affirms that the Baphometic figure is occult science and magic. Another commentator says that in the Divine world it signifies predestination, but there is no correspondence in that world with the things which below are of the brute. What it does signify is the Dweller on the Threshold without the Mystical Garden when those are driven forth therefrom who have eaten the forbidden fruit. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Devil' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>15</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Capricorn'><foaf:name>Capricorn in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj15.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m15.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Tower'>
+      <foaf:name>Tower</foaf:name>
+      <dcterms:description>(from The Pictorial Key to Tarot by A.E. Waite)
+Occult explanations attached to this card are meager and mostly disconcerting. It is idle to indicate that it depicts min in all its aspects, because it bears this evidence on the surface. It is said further that it contains the first allusion to a material building, but I do not conceive that the Tower is more or less material than the pillars which we have met with in three previous cases. I see nothing to warrant Papus in supposing that it is literally the fall of Adam, but there is more in favor of his alternative--that it signifies the materialization of the spiritual word. The bibliographer Christian imagines that it is the downfall of the mind, seeking to penetrate the mystery of God. I agree rather with Grand Orient that it is the ruin of the House of We, when evil has prevailed therein, and above all that it is the rending of a House of Doctrine. I understand that the reference is, however, to a House of Falsehood. It illustrates also in the most comprehensive way the old truth that "except the Lord build the house, they labour in vain that build it."
+
+There is a sense in which the catastrophe is a reflection from the previous card, but not on the side of the symbolism which I have tried to indicate therein. It is more correctly a question of analogy; one is concerned with the fall into the material and animal state, while the other signifies destruction on the intellectual side. The Tower has been spoken of as the chastisement of pride and the intellect overwhelmed in the attempt to penetrate the Mystery of God; but in neither case do these explanations account for the two persons who are the living sufferers. The one is the literal word made void and the other its false interpretation. In yet a deeper sense, it may signify also the end of a dispensation, but there is no possibility here for the consideration of this involved question.
+
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Tower' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>16</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Mars'><foaf:name>The Planet Mars</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj16.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m16.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Star'>
+      <foaf:name>Star</foaf:name>
+      <dcterms:description>from The Pictorial Key to Tarot by A.E. Waite
+A great, radiant star of eight rays, surrounded by seven lesser stars--also of eight rays. The female figure in the foreground is entirely naked. Her left knee is on the land and her right foot upon the water. She pours Water of Life from two great ewers, irrigating sea and land. Behind her is rising ground and on the right a shrub or tree, whereon a bird alights. The figure expresses eternal youth and beauty. The star is l'ÃÂ©toile flamboyante, which appears in Masonic symbolism, but has been confused therein. That which the figure communicates to the living scene is the substance of the heavens and the elements. It has been said truly that the mottoes of this card are "Waters of Life freely" and "Gifts of the Spirit."
+
+The summary of several tawdry explanations says that it is a card of hope. On other planes it has been certified as immortality and interior light. For the majority of prepared minds, the figure will appear as the type of Truth unveiled, glorious in undying beauty, pouring on the waters of the soul some part and measure of her priceless possession. But she is in reality the Great Mother in the Kabalistic Sephira Binah, which is supernal Understanding, who communicates to the Sephiroth that are below in the measure that they can receive her influx. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Star' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>17</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Aquarius'><foaf:name>Aquarius in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj17.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m17.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Moon'>
+      <foaf:name>Moon</foaf:name>
+      <dcterms:description>(from The Pictorial Key to Tarot`` by A.E Waite)
+The distinction between this card and some of the conventional types is that the moon is increasing on what is called the side of mercy, to the right of the observer. It has sixteen chief and sixteen secondary rays. The card represents life of the imagination apart from life of the spirit. The path between the towers is the issue into the unknown. The dog and wolf are the fears of the natural mind in the presence of that place of exit, when there is only reflected light to guide it.
+
+The last reference is a key to another form of symbolism. The intellectual light is a reflection and beyond it is the unknown mystery which it cannot shew forth. It illuminates our animal nature, types of which are represented below - the dog, the wolf and that which comes up out of the deeps, the nameless and hideous tendency which is lower than the savage beast. It strives to attain manifestation, symbolized by crawling from the abyss of water to the land, but as a rule it sinks back whence it came. The face of the mind directs a calm gaze upon the unrest below; the dew of thought falls; the message is: Peace, be still; and it may be that there shall come a calm upon the animal nature, while the abyss beneath shall cease from giving up a form.
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Moon' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>18</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/zodiac/Pisces'><foaf:name>Pisces in the Zodiac</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj18.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m18.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Sun'>
+      <foaf:name>Sun</foaf:name>
+      <dcterms:description>[from The pictorial Key to Tarot by A.E. Waite)
+The naked child mounted on a white horse and displaying a red standard has been mentioned already as the better symbolism connected with this card. It is the destiny of the Supernatural East and the great and holy light which goes before the endless procession of humanity, coming out from the walled garden of the sensitive life and passing on the journey home. The card signifies, therefore, the transit from the manifest light of this world, represented by the glorious sun of earth, to the light of the world to come, which goes before aspiration and is typified by the heart of a child.
+
+But the last allusion is again the key to a different form or aspect of the symbolism. The sun is that of consciousness in the spirit - the direct as the antithesis of the reflected light. The characteristic type of humanity has become a little child therein--a child in the sense of simplicity and innocence in the sense of wisdom. In that simplicity, he bears the seal of Nature and of Art; in that innocence, he signifies the restored world. When the self-knowing spirit has dawned in the consciousness above the natural mind, that mind in its renewal leads forth the animal nature in a state of perfect conformity 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Sun' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>19</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Sun'><foaf:name>The Sun</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj19.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m19.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/Judgement'>
+      <foaf:name>Judgement</foaf:name>
+      <dcterms:description>(from The Pictorial Key to the Tarot by A.E. Waite)
+I have said that this symbol is essentially invariable in all Tarot sets, or at least the variations do not alter its character. The great angel is here encompassed by clouds, but he blows his bannered trumpet, and the cross as usual is displayed on the banner. The dead are rising from their tombs--a woman on the right, a man on the left hand, and between them their child, whose back is turned. But in this card there are more than three who are restored, and it has been thought worth while to make this variation as illustrating the insufficiency of current explanations. It should be noted that all the figures are as one in the wonder, adoration and ecstacy expressed by their attitudes. It is the card which registers the accomplishment of the great work of transformation in answer to the summons of the Supernal--which summons is heard and answered from within.
+
+Herein is the intimation of a significance which cannot well be carried further in the present place. What is that within us which does sound a trumpet and all that is lower in our nature rises in response--almost in a moment, almost in the twinkling of an eye? Let the card continue to depict, for those who can see no further, the Last judgment and the resurrection in the natural body; but let those who have inward eyes look and discover therewith. They will understand that it has been called truly in the past a card of eternal life, and for this reason it may be compared with that which passes under the name of Temperance.
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/Judgement' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>20</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/element/Fire'><foaf:name>The Alchemical Element of Fire</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj20.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m20.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+  <cards:hasCard>
+    <cards:Card rdf:about='http://data.totl.net/tarot-rwcs/card/World'>
+      <foaf:name>World</foaf:name>
+      <dcterms:description>(from The Pictorial Key to Tarot by A.E.Waite)
+As this final message of the Major Trumps is unchanged--and indeed unchangeable--in respect of its design, it has been partly described already regarding its deeper sense. It represents also the perfection and end of the Cosmos, the secret which is within it, the rapture of the universe when it understands itself in God. It is further the state of the soul in the consciousness of Divine Vision, reflected from the self-knowing spirit. But these meanings are without prejudice to that which I have said concerning it on the material side.
+
+It has more than one message on the macrocosmic side and is, for example, the state of the restored world when the law of manifestation shall have been carried to the highest degree of natural perfection. But it is perhaps more especially a story of the past, referring to that day when all was declared to be good, when the morning stars sang together and all the Sons of God shouted for joy. One of the worst explanations concerning it is that the figure symbolizes the Magus when he has reached the highest degree of initiation; another account says that it represents the absolute, which is ridiculous. The figure has been said to stand for Truth, which is, however, more properly allocated to the seventeenth card. Lastly, it has been called the Crown of the Magi. 
+</dcterms:description>
+      <occult:archetype rdf:resource='http://data.totl.net/tarot/card/World' />
+      <rdf:type rdf:resource='http://data.totl.net/tarot/MajorArcanaCard' />
+      <cards:numericValue>21</cards:numericValue>
+      <occult:correspondsTo>
+        <rdf:Description rdf:about='http://data.totl.net/planet/Saturn'><foaf:name>The Planet Saturn</foaf:name></rdf:Description>
+      </occult:correspondsTo>
+      <foaf:page rdf:resource='http://learntarot.com/maj21.htm' />
+      <foaf:depiction rdf:resource='http://data.totl.net/tarot-rwcs-images/m21.jpg' />
+    </cards:Card>
+  </cards:hasCard>
+</cards:Deck>
+</rdf:RDF>
