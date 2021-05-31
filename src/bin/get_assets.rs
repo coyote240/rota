@@ -1,19 +1,27 @@
 use std::fs;
+use serde_json;
 use minidom::Element;
-use rota::{Card, Arcana, Suit};
+use rota::{Deck, Card, Arcana, Suit};
 
 const CARDS_NS: &str = "http://data.totl.net/cards/";
 const FOAF_NS: &str = "http://xmlns.com/foaf/0.1/";
 const RDF_NS: &str = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 
 fn main() {
-    let path = String::from("../assets/tarot-rwcs.xml");
-    let card = parse_doc(path);
+    let path = String::from("assets/tarot-rwcs.xml");
+    let cards = parse_xml(path);
+    let deck = Deck {
+        cards
+    };
 
-    println!("{:#?}", card);
+    let deck_json = serde_json::to_string(&deck).unwrap();
+    match fs::write("assets/tarot-rwcs.json", &deck_json) {
+        Ok(res) => res,
+        Err(err) => println!("Problem writing file: {}", err),
+    }
 }
 
-fn parse_doc(path: String) -> Vec<Card> {
+fn parse_xml(path: String) -> Vec<Card> {
     let xml = fs::read_to_string(path)
         .expect("Failed to read file");
 
