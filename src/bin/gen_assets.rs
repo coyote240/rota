@@ -70,21 +70,20 @@ fn get_number(node: &Element) -> u8 {
 }
 
 fn get_arcana(node: &Element) -> Arcana {
+    let mut arcana = Arcana::Minor;
+
     for card_type in node.children() {
         if !card_type.is("type", RDF_NS) { continue }
 
         for (_, value) in card_type.attrs() {
-            if value == "http://data.totl.net/tarot/MinorArcanaCard" {
-                return Arcana::Minor;
-            } else if value == "http://data.totl.net/tarot/MajorArcanaCard" {
-                return Arcana::Major;
-            } else {
-                continue;
+            arcana = match value {
+                "http://data.totl.net/tarot/MinorArcanaCard" => Arcana::Minor,
+                "http://data.totl.net/tarot/MajorArcanaCard" => Arcana::Major,
+                _ => Arcana::Minor,
             }
         }
     }
-
-    Arcana::Minor
+    arcana
 }
 
 fn get_suit(node: &Element) -> Option<Suit> {
@@ -95,17 +94,13 @@ fn get_suit(node: &Element) -> Option<Suit> {
     let suit: Vec<&str> = suit.rsplit("/").collect();
     let suit = suit[0];
 
-    let suit = if suit == "Swords" {
-        Suit::Swords
-    } else if suit == "Cups" {
-        Suit::Cups
-    } else if suit == "Pentacles" {
-        Suit::Pentacles
-    } else {
-        Suit::Wands
+    return match suit {
+        "Swords" => Some(Suit::Swords),
+        "Cups" => Some(Suit::Cups),
+        "Pentacles" => Some(Suit::Pentacles),
+        "Wands" => Some(Suit::Wands),
+        _ => None,
     };
-
-    Some(suit)
 }
 
 fn get_depiction(node: &Element) -> String {
